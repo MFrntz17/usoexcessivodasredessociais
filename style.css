@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2024/03/10/05/51/soccer-8624054_1280.jpg);
+    width: 70%;
+    margin: auto;
+    padding: 70px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+h1{
+    text-align: center;
+    color:#0000ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: auto;
+    width: 90%;
+    margin: auto;
+}
+
+p{
+    text-align: center;
+    font-size: larger;
+    color:#ffffff ;
+    width: 80%;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .h1{
+       flex: 1 1 100%;
+    }
+
+    .p{
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .p{
+        flex: 1 1 100%;
+    }
+}
+
+button{
+    border: none;
+    background-color: #ff0000;
+    border-radius: 15px;
+    margin: auto;
+    font-size: 17px;
+    padding: 10px;
+    display: flex; 
+    align-items: end;
+    color: #a9a9a9;
+}
+
